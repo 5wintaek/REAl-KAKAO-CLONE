@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
 @import "reset.css";
 @import "status-bar.css";
+@import "variable.css";
 
 body {
     font-family: 'Open Sans', sans-serif;   /* 폰트 import */
@@ -24,3 +25,30 @@ body {
     opacity: 0.6; /* 글자색 희미하게 */
 }
 
+#login-form{
+    display: flex;  /* 블럭들이 옆으로 */
+    flex-direction: column; /* 컬럼으로 모양 잡기 */
+    margin: 0px 30px;
+}
+
+#login-form input {
+    padding: 15px 0px;
+    border: none;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2); /* 맨끝은 opacity 흐림도 */
+    margin-bottom: 25px;
+    transition: border-color 0.3s ease-in-out; 
+}
+#login-form input::placeholder{
+    color: rgba(0, 0, 0, 0.4);
+}
+
+#login-form input:focus{
+    outline: none;  /* 상자 바깥라인 안보이게 하는것 */
+}
+
+#login-form input:focus{
+    border-color: var(--yellow)
+
+}
+/* 마우스로 클랙했을떄 border-bottom 색상이 바뀌게 하는법 */
