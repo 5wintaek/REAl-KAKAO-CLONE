@@ -30,10 +30,12 @@
       </p>
     </header>
 
-    <form id="login-form">
+    <form action="friends.html" method="get" id="login-form">
+      <!-- action 은 어떤페이지로 data를 보낼건지 지절할 수 있음 -->
+      <!-- method get은 url 을 가져오는것 -->
       <!-- 만들form이 많지않아서 id 사용-->
-      <input type="text" placeholder="Email or phone number" />
-      <input type="password" placeholder="Password" />
+      <input name="username" type="text" placeholder="Email or phone number" />
+      <input name="password" type="password" placeholder="Password" />
       <input type="submit" value="Log In" />
       <a href="#">Find Kakaco Account or Password</a>
     </form>
