@@ -1,0 +1,18 @@
+.nav{
+    background-color: #f9f9fa;
+    position: fixed;   /* 스크롤을해도 위치에 고정해주는거 */
+    width: 100%;
+    bottom: 0px;
+    box-sizing: border-box;
+    padding: 20px 50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.nav__list { 
+    display: flex; /* 아이콘들을 세로로 위치하기 위해 flex 사용 */
+    justify-content: space-between;
+}
+
+.nav__link{
+    color: #2e363e;
+}

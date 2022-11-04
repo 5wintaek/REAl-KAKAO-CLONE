@@ -3,6 +3,8 @@
     display: flex; /* 블럭을 같은줄에 쓸때 사용 */
     justify-content: center;
     padding: 5px 3px;
+    position: fixed; 
+    width: 100%;
 }
 
 .status-bar__column{  /* 모든 간격들을 33%씩 간격을 둠 */
