@@ -2,6 +2,8 @@
 @import "reset.css";
 @import "variable.css";
 @import "components/screen-header.css";
+@import "screens/friends.css";
+@import "components/user-components.css";
 
 /* Components */
 @import "components/status-bar.css";
@@ -13,6 +15,7 @@
 body{
     font-family: 'Open Sans', sans-serif;   /* 폰트 import */
     height: 1000vh; /* 해상도 */
+    color: #2e363e;
 }
 
 

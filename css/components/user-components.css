@@ -1,0 +1,27 @@
+
+.user-component,
+.user-component__column:first-child{/* 프로필이미지와 text*/
+    display: flex; 
+    align-items: center; /* 사진이랑 text의 flex 설정된 부모 요소 */
+
+}
+
+.user-component__img{
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+
+.user-component__title{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.user-component__subtitle{
+    margin-top: 8px;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
