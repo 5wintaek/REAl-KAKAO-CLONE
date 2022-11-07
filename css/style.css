@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;   /* 폰트 import */
-    height: 1000vh;
+    height: 1000vh; /* 해상도 */
 }
 
 

@@ -4,6 +4,7 @@
     width: 100%;
     bottom: 0px;
     box-sizing: border-box;
+    /* padding 사이즈를 제공해도 box사이즈가 그대로 있기를 바라는 명령어 */
     padding: 20px 50px;
     border-top: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -15,4 +16,35 @@
 
 .nav__link{
     color: #2e363e;
+    position: relative;
+}
+
+.nav_noti{ /* 채팅 숫자 1 만드는것 */
+    background-color: tomato;
+    width:30px;
+    height:30px;
+    border-radius: 15px; /* 사각형의 완전한 원형을 쓰고싶으면 widht의 50%를 주면 원이 된다. */
+    display: flex;
+    justify-content: center; /* 가로축 가운데 */
+    align-items: center; /* 세로축 가운데 정렬 */
+    color: white;
+    font-weight: 600;
+    position: absolute; /* 가장 가까운 relavtive를 가진 부모 기준으로 움직임 */
+    left: 15px;
+    bottom: 15px;
+}
+
+.nav_dot{
+  display: flex;
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  position: absolute;
+  left: 20px;
+  font-weight: 600;
+  bottom: 15px;
+  align-items: center;
+  justify-content: center;
 }
