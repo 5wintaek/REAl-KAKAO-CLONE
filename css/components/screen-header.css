@@ -1,7 +1,7 @@
 .screen-header{
     display: flex; /* 모든것이 나란히 정렬하기 위해서 사용 */
     justify-content: space-between;
-    padding: 45px 25px;
+    padding: 40px 25px;
     align-items: center;
 }
 
