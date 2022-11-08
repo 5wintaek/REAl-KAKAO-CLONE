@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,600&display=swap");
 @import "reset.css";
 @import "variable.css";
-@import "components/screen-header.css";
 @import "screens/friends.css";
-@import "components/user-components.css";
 
 /* Components */
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -17,5 +17,8 @@ body{
     height: 1000vh; /* 해상도 */
     color: #2e363e;
 }
-
+ 
+.main-screen{
+    padding: 0px 5px;
+}
 

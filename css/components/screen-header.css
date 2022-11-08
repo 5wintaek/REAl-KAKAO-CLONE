@@ -1,13 +1,13 @@
 .screen-header{
     display: flex; /* 모든것이 나란히 정렬하기 위해서 사용 */
     justify-content: space-between;
-    padding: 40px 25px;
+    padding: 45px 20px;
     align-items: center;
 }
 
 .screen-header__title{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .screen-header__icons span{ /* 아이콘 간격 사이 */
