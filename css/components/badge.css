@@ -1,0 +1,13 @@
+.badge{ /* 채팅 숫자 1 만드는것 */
+    background-color: tomato;
+    width:20px;
+    height:20px;
+    border-radius: 10px; /* 사각형의 완전한 원형을 쓰고싶으면 widht의 50%를 주면 원이 된다. */
+    display: flex;
+    justify-content: center; /* 가로축 가운데 */
+    align-items: center; /* 세로축 가운데 정렬 */
+    color: white;
+    font-weight: 600;
+    left: 20px;
+    bottom: 20px;
+}
