@@ -1,0 +1,20 @@
+.find-icon{
+    display: flex;
+    justify-content: space-between;
+}
+
+.find-icon__icons{
+    display: flex;
+    flex-direction: column; /* row 는 옆에 오는거고 column 다음줄에 오는거 */
+    align-items: center;
+    
+}
+
+.find-icon__icons i{
+    font-size: 35px;
+}
+
+.find-icon__icons span{  
+    margin-top: 18px;
+}
+

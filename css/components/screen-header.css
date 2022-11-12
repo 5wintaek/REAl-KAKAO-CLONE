@@ -12,5 +12,15 @@
 
 .screen-header__icons span{ /* 아이콘 간격 사이 */
     margin-left: 25px;
+    position: relative;
 }
 
+.dot{
+    width: 5px;
+    height: 5px;   
+    background-color: tomato;
+    border-radius: 2.5px;
+    position: absolute;
+    right: -10px;
+    top: -5px;
+}
