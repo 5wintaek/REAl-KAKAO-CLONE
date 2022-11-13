@@ -10,8 +10,6 @@
 @import "components/user-components.css";
 @import "components/badge.css";
 
-
-
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -19,7 +17,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;   /* 폰트 import */
-    height: 1000vh; /* 해상도 */
+    height: 500vh; /* 해상도 */
     color: #2e363e;
 }
  

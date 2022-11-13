@@ -18,3 +18,101 @@
     margin-top: 18px;
 }
 
+.recommended-friends{
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding: 25px 0px;
+    margin: 25px 0px;
+}
+
+.recommended-friends__title{
+    font-size: 17px;
+    color: var(--gray-color);
+}
+
+.recommended-friends span{ /* you have no recommended friends */
+    display: block;/* span 이여서 block 으로 바꿔줘야 margin 이 제대로 적용가능 */
+    margin: 110px 0px;
+    text-align: center; /* 글자 가운데정렬 */
+    color: var(--gray-color);
+    font-size: 18px;
+}
+
+.open-chat__header{
+    display: flex;
+    justify-content: space-between;
+    color: var(--gray-color);
+    margin-bottom: 25px;
+
+}
+
+.open-post{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.open-post__title{
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.open-post__hashtags{
+    text-transform: uppercase; /* 모든 글자 대문자 */
+    opacity: 0.7;
+}
+
+.open-post__members{ /* 사진 members count Active 나란히 하기 위해 flex */
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.open-post__members img{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.open-post__members-counter{
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+.open-post__members .divider{ /* divider 라는 변수가 있을 수 있어서 작성 */
+    width: 1px;
+    height: 15px ;    
+    background-color: var(--gray-color);
+    margin: 0px 5px;
+}
+
+.open-post__member-status{
+    color: rgb(239, 107, 129);
+}
+
+.open-post__photo img{
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+.open-post__photo{
+    position: relative;
+}
+.open-post__heart-count{
+    background-color: rgba(0, 0, 0, 0.8);    
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    display: flex;    
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 15px;
+/* width랑 height 입력안하면 사이즈가 padding 값에 맞춰짐 */
+}
+
+.open-post__heart-count span{
+    margin-left: 3px;
+}
