@@ -29,6 +29,7 @@
     margin-top: 8px;
     font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
+    display: flex;
 }
 
 .user-component__img--sm{
@@ -52,4 +53,13 @@
 .user-component__time{
     display: flex;
     margin-bottom: 10px;
+}
+
+.user-component__text .divider{
+    display: flex;
+}
+
+.user-component__subtitle-light{
+    margin-top: 5px;
+    margin-left: 5px;
 }
