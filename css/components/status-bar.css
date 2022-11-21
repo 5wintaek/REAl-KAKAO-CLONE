@@ -5,6 +5,7 @@
     padding: 5px 3px;
     position: fixed; 
     width: 100%;
+    
 }
 
 .status-bar__column{  /* 모든 간격들을 33%씩 간격을 둠 */

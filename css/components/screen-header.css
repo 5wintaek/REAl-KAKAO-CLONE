@@ -12,6 +12,10 @@
 
 .screen-header__icons span{ /* 아이콘 간격 사이 */
     margin-left: 25px;
+    
+}
+
+.screen-header-dot{
     position: relative;
 }
 
