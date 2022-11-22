@@ -1,6 +1,7 @@
 
 .welcome-header{
     padding: 90px 0px;
+    /* status-bar position:fixed 되어서 margin을 padding으로 바꿈 */
     text-align: center;
     display: flex;
     flex-direction: column; 

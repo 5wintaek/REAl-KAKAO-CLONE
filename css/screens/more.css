@@ -25,6 +25,7 @@
 }
 
 .more-suggestions-icon-img{
+    /* 아이콘 박스 */
     height: 60px;
     width: 60px;
     background-color: var(--yellow);
@@ -36,6 +37,7 @@
 }
 
 .more-suggestions-icon-img i {
+    /* 아이콘 스타일 */
     color: white;
     font-size: 30px;
 }
